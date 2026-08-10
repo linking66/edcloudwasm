@@ -40,7 +40,7 @@ const dohNatEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.go
 const proxyIpAddrs = {EU: 'ProxyIP.DE.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.net', JP: 'ProxyIP.JP.CMLiussss.net', US: 'ProxyIP.US.CMLiussss.net'};//分区域proxyip
 const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址，可支持ip:port#name格式
-const ipListAll = ["172.64.154.125", "104.18.39.123", "172.64.145.18", "104.18.42.218", "104.18.33.131", "172.64.145.38", "172.64.145.202", "104.18.42.151"];
+const ipListAll = ["cf.ss2.kdns.fr:2087#cf.ss2🇭🇰优选", "154.3.35.212:8754#AS906🇭🇰香港", "154.21.82.1:48080#AS906🇺🇸美国1", "69.63.204.68:39082#AS906🇺🇸美国2", "www.allianz.com:443#域名|安联集团"];
 const coloRegions = {
     JP: new Set(['FUK', 'ICN', 'KIX', 'NRT', 'OKA']),
     EU: new Set([
